@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5fc0ef1-5977-465b-8578-5c0d77f750c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/migrations/0003_category_parent_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/migrations/0004_auto_20200304_2214.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/migrations/0005_remove_category_slug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/migrations/0006_variation_slug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/homepage/product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/homepage/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopingSite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopingSite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/order/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/homepage/styles/product_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/homepage/styles/product_styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/homepage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/homepage/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/order/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +108,7 @@
       <workItem from="1582425338131" duration="734000" />
       <workItem from="1583334445977" duration="1853000" />
       <workItem from="1583398909257" duration="2370000" />
-      <workItem from="1583464920567" duration="8722000" />
+      <workItem from="1583464920567" duration="14645000" />
     </task>
     <servers />
   </component>

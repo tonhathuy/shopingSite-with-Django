@@ -1,27 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.views.generic import ListView, DetailView, View
 from product.models import *
+from cart.models import *
 from django.db.models import Count
 
 
 # Create your views here.
-
-
-# class HomeView(View):
-#     def get(self, request):
-#         cateparent = Category.objects.filter(parent_ID=0)
-#         allvariation = Variation.objects.all()
-#         onSale = Variation.objects.filter(sale_price__lt=600)
-#         allproduct = Product.objects.all()
-#         vari_id = allvariation.values('id')
-#
-#         context = {
-#             'parents': cateparent,
-#             'variations': allvariation,
-#             'a': vari_id,
-#             'sales': onSale
-#         }
-#         return render(request, 'homepage/index.html', context)
 
 class HomeView(ListView):
     model = Variation
@@ -32,3 +16,12 @@ class HomeView(ListView):
 class ItemDetailView(DetailView):
     model = Variation
     template_name = "homepage/product.html"
+
+
+def add_to_cart(request, slug):
+    item = get_object_or_404(Variation, slug=slug)
+    order_item, created = CartItem.objects.get_or_create(
+        item=item,
+        user=request.user,
+        ordered=False
+    )

@@ -4,13 +4,8 @@ from user.models import CustomerUser
 # Create your models here.
 
 
-class Cart(models.Model):
+class OrderItem(models.Model):
     user = models.ForeignKey(CustomerUser, on_delete=models.CASCADE)
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-
-class CartItem(models.Model):
-    cart = models.ForeignKey(Cart, on_delete=models.CASCADE)
     item = models.ForeignKey(Variation, on_delete=models.CASCADE)
+    ordered = models.BooleanField(default=False)
     quantity = models.IntegerField(default=0)
