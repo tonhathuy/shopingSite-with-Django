@@ -1,29 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5fc0ef1-5977-465b-8578-5c0d77f750c3" name="Default Changelist" comment="" />
+    <list default="true" id="e5fc0ef1-5977-465b-8578-5c0d77f750c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/0003_category_parent_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/0004_auto_20200304_2214.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/0005_remove_category_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/0006_variation_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/homepage/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/homepage/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopingSite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopingSite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/order/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/homepage/styles/product_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/homepage/styles/product_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/navbar.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XNZwOV1dDBxW65wI6uxtoz4kzT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django-ecommerce" />
   </component>
   <component name="RunManager">
     <configuration name="ShopingSite" type="Python.DjangoServer" factoryName="Django server">
@@ -62,21 +117,47 @@
       <updated>1580888750806</updated>
       <workItem from="1580888791569" duration="11000" />
       <workItem from="1580888811569" duration="8894000" />
-      <workItem from="1580955702897" duration="775000" />
+      <workItem from="1580955702897" duration="3437000" />
+      <workItem from="1580995147972" duration="1091000" />
+      <workItem from="1581225991433" duration="3749000" />
+      <workItem from="1581257166453" duration="1923000" />
+      <workItem from="1582104877188" duration="13667000" />
+      <workItem from="1582159342438" duration="15222000" />
+      <workItem from="1582245953162" duration="15236000" />
+      <workItem from="1582383559340" duration="639000" />
+      <workItem from="1582425338131" duration="734000" />
+      <workItem from="1583334445977" duration="1853000" />
+      <workItem from="1583398909257" duration="2370000" />
+      <workItem from="1583464920567" duration="8722000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580955934458">
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582116474769">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580955934458" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1580955703798">
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582116474769" />
+    <state x="651" y="245" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1582128933032">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580955703798" />
+    <state x="651" y="245" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582128933032" />
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1582425471732">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582425471732" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1582116554962">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1080@0.0.1920.1080" timestamp="1582116554962" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1582425340376">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582425340376" />
   </component>
 </project>

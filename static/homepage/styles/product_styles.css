@@ -1552,6 +1552,17 @@ select option
 	margin-top: 75px;
 	clear: left;
 }
+.product_price.discount
+{
+	color: #df3b3b;
+}
+.product_price span
+{
+	font-size: 12px;
+	font-weight: 400;
+	color: rgba(0,0,0,0.6);
+	margin-left: 10px;
+}
 .button_container
 {
 	margin-top: 43px;

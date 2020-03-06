@@ -1,0 +1,28 @@
+{% load custom_filter %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+    <ul class="cat_menu">
+        {% for parent in parents %}
+        <li class="hassubs">
+            <a href="{{parent.id}}">{{parent.title}}<i class="fas fa-chevron-right"></i></a>
+            <ul>
+                {% for child in parent.id|getChilds %}
+                <li><a href="#">{{child.title}}<i class="fas fa-chevron-right"></i></a></li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+    {% for variation in variations %}
+        {% for item in variation.id|hasSale %}
+        {{variation.id}}{{variation.title}}<p>phan tram: </p>{{item}}
+        {% endfor %}
+    {% endfor %}
+
+</body>
+</html>
